@@ -6,9 +6,10 @@ body {
   /* Navigation div Index */
   .top-div {
     background-color: red;
-    width: 100vw;
+    width: 100;
     height: 50vh;
   }
+
   
   .top-div ul {
     display: flex;
@@ -81,12 +82,13 @@ body {
   }
   
   .div1 > img {
-    max-width: 28.1rem;
+    padding: 0 50px;
+    width: 400px;
     max-height: 28.1rem;
   }
   
   .div2 {
-    background-color: orange;
+    background-color: rgb(207, 192, 165);
     height: 300px;
     width: 50vw;
   }
@@ -103,5 +105,65 @@ body {
   }
   
   h2 {
-    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+
   }
+
+.contact-box{
+  background: rgb(218, 215, 194);
+  display:flex;
+
+}
+
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+
+}
+
+.contact-right{
+  flex-basis: 60%;
+  padding: 40px 60px;
+  background-color: brown;
+}
+
+.p-contact{
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+
+}
+
+input{
+  width: 100%;
+  border: none;
+  
+
+}
+
+textarea{
+  width: 100%;
+  border: none;
+}
+
+.submit{
+  background-color:brown;
+  width: 100px;
+  border: none;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
